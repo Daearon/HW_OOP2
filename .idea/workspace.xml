@@ -5,28 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95572722-398f-4411-b2e9-78cb0ec63b32" name="Changes" comment="Completed second homework">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/Animals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/Birds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/GetHigh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/MakeSound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/Pets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/ShowAffection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/Stork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/Training.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/WildAnimals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/Wolf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW_OOP2/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW_OOP2/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/Chicken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW_OOP2/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW_OOP2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW_OOP2/Pets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/Pets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW_OOP2/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/Wolf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HW_OOP2/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW_OOP2/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +66,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678763152088</updated>
-      <workItem from="1678763155959" duration="4336000" />
+      <workItem from="1678763155959" duration="8039000" />
     </task>
+    <task id="LOCAL-00001" summary="Completed second homework">
+      <created>1678767502415</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678767502415</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

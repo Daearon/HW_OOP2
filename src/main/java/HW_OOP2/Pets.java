@@ -15,6 +15,8 @@ public abstract class Pets extends Animals implements ShowAffection{
         this.coatColor = coatColor;
         this.birthDate = birthDate;
     }
+
+    public abstract void showAffection();
     @Override
     public String toString() {
         return "\nРост животного: " + height +
@@ -25,6 +27,5 @@ public abstract class Pets extends Animals implements ShowAffection{
                 "\nНаличие прививок: " + vaccinations +
                 "\nЦвет шерсти: " + coatColor +
                 "\nДата рождения: " + birthDate;
-    }
-    public abstract void showAffection();
+}
 }

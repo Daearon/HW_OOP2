@@ -57,7 +57,10 @@ public class Zoo {
                         System.out.print("Дата рождения: ");
                         Scanner nScanner = new Scanner(System.in);
                         String birthDate = nScanner.next();
-                        Animals newCat = new Cat(height, weight, eyeColor, name, species, vaccination, coatColor, birthDate);
+                        System.out.print("Наличие шерсти: ");
+                        Scanner pScanner = new Scanner(System.in);
+                        Boolean presenceOfWool = pScanner.nextBoolean();
+                        Animals newCat = new Cat(height, weight, eyeColor, name, species, vaccination, coatColor, birthDate, presenceOfWool);
                         System.out.printf("\nВы добавили кота со следующими характеристиками: %s", newCat);
                     }
                     if (addNumber == 2){
@@ -85,7 +88,10 @@ public class Zoo {
                         System.out.print("Дата рождения: ");
                         Scanner nScanner = new Scanner(System.in);
                         String birthDate = nScanner.next();
-                        Animals newDog = new Dog(height, weight, eyeColor, name, species, vaccination, coatColor, birthDate);
+                        System.out.print("Дрессирован: ");
+                        Scanner dScanner = new Scanner(System.in);
+                        Boolean trainingAvailability = dScanner.nextBoolean();
+                        Animals newDog = new Dog(height, weight, eyeColor, name, species, vaccination, coatColor, birthDate, trainingAvailability);
                         System.out.printf("\nВы добавили собаку со следующими характеристиками: %s", newDog);
                     }
                     if (addNumber == 3){
@@ -123,8 +129,11 @@ public class Zoo {
                         System.out.print("Дата нахождения: ");
                         Scanner kScanner = new Scanner(System.in);
                         String locationDate = kScanner.next();
-                        Animals newWolf = new Wolf(height, weight, eyeColor, habitat, locationDate);
-                        System.out.printf("\nВы добавили тигра со следующими характеристиками: %s", newWolf);
+                        System.out.print("Вожак стаи: ");
+                        Scanner dScanner = new Scanner(System.in);
+                        Boolean packLeader = dScanner.nextBoolean();
+                        Animals newWolf = new Wolf(height, weight, eyeColor, habitat, locationDate, packLeader);
+                        System.out.printf("\nВы добавили волка со следующими характеристиками: %s", newWolf);
                     }
 
                     if (addNumber == 5){

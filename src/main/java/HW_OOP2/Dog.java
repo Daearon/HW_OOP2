@@ -2,24 +2,14 @@ package HW_OOP2;
 
 public class Dog extends Pets implements Training {
     public Dog(int height, int weight, String eyeColor, String name, String species, String vaccinations,
-               String coatColor, String birthDate) {
+               String coatColor, String birthDate, boolean trainingAvailability) {
         super(height, weight, eyeColor, name, species, vaccinations, coatColor, birthDate);
+        this.trainingAvailability = trainingAvailability;
     }
-    @Override
-    public String toString() {
-        boolean trainingAvailability = false;
-        return "\nРост животного: " + height +
-                "\nВес животного: " + weight +
-                "\nЦвет глаз: " + eyeColor +
-                "\nКличка: " + name +
-                "\nПорода: " + species +
-                "\nНаличие прививок: " + vaccinations +
-                "\nЦвет шерсти: " + coatColor +
-                "\nДата рождения: " + birthDate +
-                "\nНаличие дрессировки: " + trainingAvailability;
+    private boolean trainingAvailability;
+    public boolean istrainingAvailability() {
+        return trainingAvailability;
     }
-
-    // ОПРЕДЕЛИМ МЕТОДЫ ДЛЯ КЛАССА DOGS
     @Override
     public void makeSound() {
         System.out.println("Голос: собака лает");
@@ -32,7 +22,23 @@ public class Dog extends Pets implements Training {
 
     @Override
     public void training() {
-        System.out.println("Собака выполнила команду сидеть.");
+
+        if (trainingAvailability)
+        {
+            System.out.println("Собака выполнила команду сидеть.");
+        }
+        }
+    @Override
+    public String toString() {
+        return "\nРост животного: " + height +
+                "\nВес животного: " + weight +
+                "\nЦвет глаз: " + eyeColor +
+                "\nКличка: " + name +
+                "\nПорода: " + species +
+                "\nНаличие прививок: " + vaccinations +
+                "\nЦвет шерсти: " + coatColor +
+                "\nДата рождения: " + birthDate +
+                "\nНаличие дрессировки: " + trainingAvailability;
     }
 }
 
